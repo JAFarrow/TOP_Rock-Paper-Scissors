@@ -7,7 +7,7 @@
 */
 
 html {
-    font-size: 10px;   
+    font-size: 10px;
 }
 
 * {
@@ -20,12 +20,25 @@ h1 {
     font-size: 3.2rem;
 }
 
+h2 {
+    font-size: 2.8rem;
+}
+
 h3 {
     font-size: 2.4rem;
 }
 
+h4 {
+    font-size: 2rem;
+}
+
 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .header {
@@ -34,20 +47,142 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100vw;
+    height: 14vh;
+}
+
+.header div {
+    height: 7vh;
+    width: 100vw;
 }
 
 .head {
     background-color: #2e3546;
     color: #e0ddd5;
-    width: 100vw;
-    padding: 1.5rem 0 1.5rem 0;
+}
+
+.head h1 {
+    padding: 1rem 0;
 }
 
 .intro {
     background-color: #e0ddd5;
     color: #2e3546;
-    width: 100vw;
-    padding: 0.5rem 0 0.5rem 0;
 }
 
+.intro h3 {
+    padding: 0.7rem 0 0 0;
+}
 
+.gameContainer {
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.actionField {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: #e0ddd5;
+    height: 40vh;
+    border-top: 0.2rem solid #2e3546;
+}
+
+.actionField > div {
+    border: 0.2rem solid #2e3546;
+    width: 40vw;
+    height: 30vh;
+}
+
+.playerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.playerImg img {
+    height: 12rem;
+    width: 12rem;
+}
+
+.compImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.compImg img {
+    height: 12rem;
+    width: 12rem;
+}
+
+.selectionField {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: #e0ddd5;
+    height: 20vh;
+}
+
+.selectionField div {
+    border: 0.2rem solid #2e3546;
+    width: 20vw;
+    height: 14vh;
+}
+
+.contextField {
+    background-color: #e0ddd5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #2e3546;
+    width: 100vw;
+    height: 20vh;
+}
+
+.contextBox {
+    border: 0.2rem solid #2e3546;
+    width: 80vw;
+    height: 4vh;
+}
+
+.tallyBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tallyBox div {
+    width: 20vw;
+    height: 12vh;
+}
+
+.playerTally {
+    border-left: 0.2rem solid #2e3546;
+    border-top: 0.2rem solid #2e3546;
+    border-bottom: 0.2rem solid #2e3546;
+}
+
+.compTally {
+    border-right: 0.2rem solid #2e3546;
+    border-top: 0.2rem solid #2e3546;
+    border-bottom: 0.2rem solid #2e3546;
+}
+
+footer {
+    background-color: #2e3546;
+    color: #e0ddd5;
+    width: 100vw;
+    min-height: 6vh;
+    text-align: center;
+}
+
+footer h4 {
+    padding: 1.4rem;
+}

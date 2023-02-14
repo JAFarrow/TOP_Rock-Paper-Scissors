@@ -53,5 +53,3 @@ function scoreReporter(playerScore, computerScore) {
         console.log("The game is a tie!")
     }
 }
-    
-game();

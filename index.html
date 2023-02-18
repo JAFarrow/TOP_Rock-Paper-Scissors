@@ -5,9 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
-    <script src="/script.js"></script>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header class="header">
+        <div class="head">
+            <h1>Rock, Paper, Scissors</h1>
+            <button class="reset">Reset</button>
+        </div>
+        <div class="intro">
+            <h3>Pass The Time With A Friendly Game Of Rock, Paper, Scissors!</h3>
+            <p>If you believe chance is a game for the unenlightened, there is a secret on this page that may be of use to you..</p>
+        </div>
+    </header>
+
+    <div class="gameContainer">
+        <div class="actionField">
+            <div class="playerField">
+                <div class="playerImg">
+                    <img src="./images/human.png" alt="">
+                </div>
+            </div>
+            <div class="compField">
+                <div class="compImg">
+                    <img src="./images/robot.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="selectionField">
+            <div class="rock">
+                <input type="image" src="./images/rock.png" id="rock">
+            </div>
+            <div class="paper">
+                <input type="image" src="./images/paper.png" id="paper">
+            </div>
+            <div class="scissors">
+                <input type="image" src="./images/scissors.png" id="scissors">
+            </div>
+        </div>
+
+        <div class="contextField">
+            <div class="contextBox">
+
+            </div>
+            <div class="tallyBox">
+                <div class="playerTally">
+
+                </div>
+                <div class="compTally">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <button class="secret"><h4>©Justin Farrow, 2023</h4></button>
+    </footer>
+
 </body>
 </html>
